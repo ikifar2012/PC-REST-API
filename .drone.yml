@@ -1,0 +1,6 @@
+build:
+  image: node:latest
+  commands:
+    - npm install
+    - cd app
+    - npm test
