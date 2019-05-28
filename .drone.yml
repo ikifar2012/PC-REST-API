@@ -1,4 +1,8 @@
-build:
+kind: pipeline
+name: default
+
+steps:
+- name: PC_REST_API
   image: node:latest
   commands:
     - npm install
