@@ -6,4 +6,5 @@ steps:
   image: node:latest
   commands:
     - npm install
-    - npm test
+    - npm start
+    - exit
